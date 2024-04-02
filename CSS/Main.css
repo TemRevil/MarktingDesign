@@ -1,0 +1,38 @@
+body {
+    background-color: #EDF2F7;
+}
+
+.Content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    overflow: auto;
+}
+
+.messages-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    overflow: auto;
+}
+.message {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.user {
+    align-items: flex-start;
+}
+.user-2 {
+    align-items: flex-end;
+}
